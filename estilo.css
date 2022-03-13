@@ -1,0 +1,190 @@
+body{
+    background:linear-gradient(to right,#BFCCEB,#D0E2FC,#CEE1FD,#CADAF7);
+    margin: 0;
+}
+
+menu{
+
+    padding: 0%;
+    text-align: center;
+    border-radius:2em;
+    
+}
+menu li{
+    
+    width:20%;
+    margin:1%;
+    display:inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #EF633A ; /*fundo menu*/
+    font-weight:bold; /*Negrito*/
+    font-size: 25px; /*tamanho fonte*/
+    border-radius: 5px 5px 5px 5px; /* bordas arredondadas */
+    
+}
+
+.link /*tirar hiperlink*/
+{
+    text-decoration: none;
+    color: white; /*texto menu*/
+    
+}
+menu :hover{
+    background-color: #CADAF7 ;
+    color: black;
+}
+.main{
+	width: 95vw;
+    height: 95vh;
+    background-image: url('img/img/fundo.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    box-shadow: 0 0 5em  #919AA6;
+    margin: 0 auto;
+    
+
+}
+#principal{
+   
+    padding-top: 60px;
+    padding-left: 80px;
+    margin:0; 
+    font-size: 25px;
+    width: 50%;
+    
+    
+}
+.titulo
+{
+    margin-top: 0px;
+    color:#EF633A ;
+    margin-bottom: 0px;
+
+}
+.subtitulo
+{
+    color: black ;
+    margin-top: 0px;
+    
+}
+.principal
+{
+	text-align: justify;
+    white-space: pre-line;
+
+
+}
+
+.saibamais
+{
+    padding-top: 60px;
+    padding-left: 55px;
+    margin:0; 
+    font-size: 25px;
+}
+
+.ajuda {
+  
+    text-align: center;
+    font-size: 25px;
+    font-weight:bold;
+    margin-top: 70px;
+   
+
+}
+
+.ajuda p
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+.voluntario
+{
+    width: 30%;
+    height: 30%;
+    color: white;
+    background-color:#EF633A;
+    border-radius: 5px 5px 5px 5px;
+    border-color:#EF633A;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px 10px;
+
+}
+
+.voluntario:hover
+{
+    color: black;
+    box-shadow:10px 5px 5px black;
+}
+
+.maincontato{
+
+    width: 90vw;
+    height: 90vh;
+   margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-image: url('img/img/fundocontato.png');
+    background-size:cover;
+   
+
+  
+}
+.h1{
+    text-align: center;
+    font-size: 30px;
+    color: #EF633A;
+    font-weight: bolder;
+}
+.telefone
+{
+  height: 50vh;
+  width:  50vw;
+  font-size: 20px;
+  margin-left: 10px;
+  padding: 10px;
+   
+}
+.doacao
+{
+    
+    height: 50vh;
+    width:  50vw;
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    
+    
+}
+.acesso{
+ 
+    text-align: center;
+    color:#EF633A;
+    font-size: 30px;
+    margin: 30px 30px ;
+    width: 95%;
+    height: 95%;
+    margin: 0 auto;
+   
+}
+
+.login
+{
+    height: 30px;
+    width: 30px;
+}
+.entrar
+{
+    width: 10%;
+    height: 15%;
+    color: white;
+    background-color:#EF633A;
+    border-radius: 5px 5px 5px 5px;
+    border-color:#EF633A;
+    font-size: 20px;
+    padding: 5px 5px;
+    
+}
